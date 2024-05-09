@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    display: flex;
+    color: white;
+}
+
+img {
+    flex: 1;
+    width: 200px;
+    height: 200px;
+    margin-left: 50rem;
+    margin-top: 5rem;
+}
+
+.my-h1 {
+    font-size: 40px;
+
+}
+
+.my-about {
+    font-size: 30px;
+}
+
+div {
+    flex: 2;
+}
+
+.name {
+    color: white;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;}
